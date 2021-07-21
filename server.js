@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 app.use(cors());
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3001;
 
 class Forecast {
   constructor(date, description) {
@@ -25,6 +25,8 @@ class Forecast {
 // open up your server on port for incoming traffic
 
 app.get('/weather', (req, res) => {
+  let lat = req.query.lat;
+  let lon = req.query.lon;
   let searchQuery = req.query.searchQuery;
   let data = weatherData.find(place => place.city_name === searchQuery);
 
