@@ -23,14 +23,39 @@ This website is perfect for people who are interested in traveling in a post-COV
 
 ## Credit and Collaborations
 - Matt Cho
+- Jesse Dills
 
 
-Name of feature: ________________________________
+Name of feature: Setup
+
+Estimate of time needed to complete: 1 hr
+
+Start time: 1:00pm
+
+Finish time: 2:30pm
+
+Actual time needed to complete: 1.5 hrs
+
+---
+
+Name of feature: Weather
 
 Estimate of time needed to complete: _____
 
-Start time: _____
+Start time: 2:30pm
 
-Finish time: _____
+Finish time: 11:15pm (with a couple of hours in between)
 
-Actual time needed to complete: _____
+Actual time needed to complete: 6 hrs
+
+---
+
+Name of feature: Errors
+
+Estimate of time needed to complete: 1.5 hrs
+
+Start time: 7:00pm
+
+Finish time: 8:00pm
+
+Actual time needed to complete: 1 hr
