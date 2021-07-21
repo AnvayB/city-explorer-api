@@ -1,7 +1,7 @@
 # City Explorer (API)
 
 **Author**: Anvay Bhanap
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 2.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 This website is perfect for people who are interested in traveling in a post-COVID world and want to know more about the places they're interested in visiting.
@@ -21,9 +21,14 @@ This website is perfect for people who are interested in traveling in a post-COV
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
+## Wireframe Model
+![whiteboard lab08](https://user-images.githubusercontent.com/53208269/126557779-53fad1b3-398b-4370-8cc9-3bc7300aaefa.png)
+
+
 ## Credit and Collaborations
 - Matt Cho
 - Jesse Dills
+- David Whitmore
 
 
 Name of feature: Setup
