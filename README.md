@@ -15,6 +15,9 @@ This website is perfect for people who are interested in traveling in a post-COV
 - Express.js
 - Node dotenv
 - Node cors
+- Node axios
+- Movie API from [TMDB](https://www.themoviedb.org/)
+- Weather API from [Weatherbit](https://www.weatherbit.io/)
 
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -28,9 +31,11 @@ This website is perfect for people who are interested in traveling in a post-COV
 ## Credit and Collaborations
 - Matt Cho
 - Jesse Dills
+- Tianyi Ma
 - David Whitmore
 
 
+### July 20
 Name of feature: Setup
 
 Estimate of time needed to complete: 1 hr
@@ -64,3 +69,43 @@ Start time: 7:00pm
 Finish time: 8:00pm
 
 Actual time needed to complete: 1 hr
+
+
+### July 21
+Name of feature: Weather
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 4:00pm
+
+Finish time: 11:30pm (with break in between of a few hours)
+
+Actual time needed to complete: 6 hrs
+
+---
+
+Name of feature: Movies
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 4:00pm
+
+Finish time: 11:30 pm (with break in between of a few hours)
+
+Actual time needed to complete: 6 hrs
+
+---
+
+Name of feature: Publish 
+
+`nothing renders; 
+still need to work on frontend and deploy and push backend to Heroku`
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
