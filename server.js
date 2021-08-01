@@ -1,6 +1,5 @@
 'use strict';
 
-//pull project specifc env variables from .env file
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -14,10 +13,9 @@ const PORT = process.env.PORT || 3000;
 
 //build routes for incoming requests
 app.get('/movies', movieHandler);
-
 app.get('/weather', weatherHandler);
 
-//plug in 404 error handling
+
 app.use('*', notFoundHandler);
 
 function notFoundHandler(req, res) {
@@ -42,8 +40,6 @@ function weatherHandler (req, res) {
 
 }
 
-
-
 app.listen(PORT, () => {
-  console.log(`listening on ${PORT}`);
+  console.log(`Server working on ${PORT}`);
 })
