@@ -8,8 +8,8 @@ function getWeather(location) {
   const weatherURL = `http://api.weatherbit.io/v2.0/forecast/daily?city=${location}&key=${process.env.WEATHER_API_KEY}`;
 
   if(!cache[key]) {
-    cache[key] = {};
-    cache[key].timestamp = Date.now();
+    cache[key] = {}; 
+    cache[key].timestamp = Date.now(); 
     cache[key].data = axios.get(weatherURL)
       .then(data => parseWeatherData(data.data))
   }
@@ -21,16 +21,16 @@ function parseWeatherData(data) {
     const forecast = data.data.map(weather => {
       return new Forecast(weather);
     })
-    return Promise.resolve(forecast);
-  } catch (error) {
-    return Promise.reject(error);
+    return Promise.resolve(forecast); 
+  } catch (err) {
+    return Promise.reject(err);
   }
 }
 
 class Forecast {
   constructor(weather) {
     this.date = weather.datetime;
-    this.description = `Low of ${weather.low_temp}, High of ${weather.high_temp} with ${weather.weather.description.toLowerCase()}`;
+    this.description = `Highs of ${weather.high_temp}ºF, Lows of ${weather.low_temp}ºF with ${weather.weather.description.toLowerCase()}`;
     this.timestamp = Date.now;
   }
 }
